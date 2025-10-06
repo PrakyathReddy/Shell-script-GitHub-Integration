@@ -15,7 +15,24 @@ Github API documentation: https://docs.github.com/en/rest?apiVersion=2022-11-28
 
 If using Shell scripting, curl is the module to interact with the API's. Similarly, if Python - requests, etc.
 
-Use shell script to list people who have access to repo
+Use shell script to list people who have access to repo: list-users.sh
 
-Create an ec2 instance. Clone the shell script and run it against a repository to programmatically list users.
+The script is all about this command from the github api documentation:
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/OWNER/REPO/collaborators/USERNAME/permission
 
+To make this re-usable and readable, I have used functions accordingly
+
+Create an ec2 instance. SSH into it. Clone the shell script and run it against a repository to programmatically list users.
+
+export username and token
+
+Execute the script
+
+$ ./list-users.sh PrakyathReddy Shell-script-GitHub-Integration
+Listing users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:
+Users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:
+PrakyathReddy
