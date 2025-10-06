@@ -1,6 +1,6 @@
 # Shell script to remotely manage access to a Github repository
 
-This shell script requires GitHub integration
+This shell script requires GitHub integration <br>
 To interact with any application, there are 2 ways:
 1. API: Ex. We can use boto3 module to interact with AWS using python scripts
 2. CLI: Ex. kubectl to talk to k8s clusters
@@ -32,7 +32,7 @@ export username and token
 
 Execute the script
 
-$ ./list-users.sh PrakyathReddy Shell-script-GitHub-Integration
-Listing users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:
-Users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:
-PrakyathReddy
+$ ./list-users.sh PrakyathReddy Shell-script-GitHub-Integration<br>
+Listing users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:<br>
+Users with READ access to the repo PrakyathReddy/Shell-script-GitHub-Integration:<br>
+PrakyathReddy<br>
