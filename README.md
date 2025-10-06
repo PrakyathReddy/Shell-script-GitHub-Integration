@@ -1,5 +1,12 @@
 # Shell script to remotely manage access to a Github repository
 
+### Steps to use this repo to list users for a particular repo that you have admin access to
+1. Clone the repo: $ git clone https://github.com/PrakyathReddy/Shell-script-GitHub-Integration.git
+2. $ cd Shell-script-GitHub-Integration
+3. export username and personal access token from your terminal
+4. Execute the script $ ./list-users.sh <repo_owner> <repo_name>
+
+### Learn more how this script was created
 This shell script requires GitHub integration <br>
 To interact with any application, there are 2 ways:
 1. API: Ex. We can use boto3 module to interact with AWS using python scripts
