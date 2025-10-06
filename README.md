@@ -18,3 +18,4 @@ If using Shell scripting, curl is the module to interact with the API's. Similar
 Use shell script to list people who have access to repo
 
 Create an ec2 instance. Clone the shell script and run it against a repository to programmatically list users.
+
