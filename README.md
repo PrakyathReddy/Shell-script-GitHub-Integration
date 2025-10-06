@@ -15,3 +15,6 @@ Github API documentation: https://docs.github.com/en/rest?apiVersion=2022-11-28
 
 If using Shell scripting, curl is the module to interact with the API's. Similarly, if Python - requests, etc.
 
+Use shell script to list people who have access to repo
+
+Create an ec2 instance. Clone the shell script and run it against a repository to programmatically list users.
